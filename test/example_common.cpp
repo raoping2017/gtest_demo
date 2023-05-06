@@ -214,5 +214,15 @@ TEST(example, string2test) {
   std::cout << str1.substr(1, 3) << std::endl;
 }
 
+TEST(example, string3test) {
+  std::string str;
+  str.push_back('\'');
+  str.append("dfdfdf");
+  std::cout << str << std::endl;
+
+  std::string str1 = "fdfdssadfdf";
+  std::cout << str1.substr(1, 3) << std::endl;
+}
+
 
 
